@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RespAnimalApp</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="di_respanimal">di RespAnimal</string>
+    <string name="materi">Materi</string>
+    <string name="latihan">Latihan</string>
+    <string name="nilai">Nilai</string>
+    <string name="pengembang">Pengembang</string>
+    <string name="respirasi_hewan_vertebrata">Respirasi Hewan Vertebrata</string>
+    <string name="you_ve_successfully_completed_a_quiz">You\'ve successfully completed a quiz</string>
+    <string name="correct_answers_0">Correct Answers : 0</string>
+    <string name="wrong_answers_0">Wrong Answers : 0</string>
+    <string name="anda_telah_berhasil_menyelesaikan_quiz">Anda telah berhasil menyelesaikan quiz</string>
+    <string name="jawaban_benar_0">Jawaban benar = 0</string>
+    <string name="jawaban_salah_0">Jawaban salah = 0</string>
+    <string name="mulai_kembali">Mulai kembali</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="option_4">Option 4</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_1">Option 1</string>
+    <string name="pertanyaan_akan_datang_ke_sini">Pertanyaan akan datang ke sini ...</string>
+    <string name="_1_10">1/10</string>
+    <string name="_00_59">00:59</string>
+    <string name="nama_topik_yang_dipilih">Nama Topik yang Dipilih</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="masukkan_kelas">Masukkan Kelas</string>
+    <string name="respanimal">RespAnimal</string>
+    <string name="daftar">Daftar</string>
+    <string name="aplikasi_respanimal_adalah_aplikasi_pembelajaran_tentang_sistem_pernapasan_pada_hewan_vertebrata_di_aplikasi_respanimal_ini_terdapat_penjelasan_tentang_5_alat_pernapasan_pada_hewan_kulit_insang_paru_paru_trakea_kulit_dan_paru_paru">Aplikasi RespAnimal adalah aplikasi pembelajaran tentang sistem pernapasan pada hewan vertebrata, di aplikasi respanimal ini terdapat penjelasan tentang 5 alat pernapasan pada hewan(kulit, insang, paru-paru, trakea, kulit dan Paru-paru.</string>
+</resources>
