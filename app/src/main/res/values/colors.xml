@@ -6,4 +6,6 @@
     <color name="primary">#333366</color>
     <color name="secondary">#5C5493</color>
     <color name="subtext">#DDDBDB</color>
+
+    <color name="selected">#72AC47</color>
 </resources>

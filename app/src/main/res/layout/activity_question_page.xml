@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/img_backgroud"
     android:orientation="vertical"
-    tools:context=".QuestionPage">
+    tools:context=".question_page.QuestionPageActivity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp">
@@ -54,7 +54,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/questions"
+        android:id="@+id/number"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_gravity="center"

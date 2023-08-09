@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:padding="10dp"
     android:background="@drawable/img_dashboard"
-    tools:context=".Info">
+    tools:context=".InfoActivity">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"

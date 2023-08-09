@@ -14,6 +14,7 @@
         android:layout_height="60dp">
 
         <ImageView
+            android:id="@+id/back_btn"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
@@ -26,7 +27,7 @@
     </RelativeLayout>
 
     <ImageView
-        android:id="@+id/congratulationsIcon"
+        android:id="@+id/congratsImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -39,58 +40,35 @@
         tools:ignore="ContentDescription" />
 
     <TextView
-        android:id="@+id/successTextView"
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/congratulationsIcon"
+        android:layout_below="@+id/congratsImage"
         android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="@string/anda_telah_berhasil_menyelesaikan_quiz"
+        android:text="Anda belum menyelesaikan quiz"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:fontFamily="@font/boba_milky"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/successTextView"
+        android:layout_below="@+id/title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/correctAnswers"
+            android:id="@+id/detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/jawaban_benar_0"
+            android:text="Anda belum memiliki nilai"
             android:textColor="#00C853"
             android:textSize="18sp"
             android:fontFamily="@font/boba_milky"/>
-        <TextView
-            android:id="@+id/incorrectAnswers"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="@string/jawaban_salah_0"
-            android:textSize="18sp"
-            android:fontFamily="@font/boba_milky"
-            android:textColor="#DD2C00"
-            android:textStyle="bold" />
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/submitScore"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_above="@+id/startNewQuizButton"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="20dp"
-        android:background="@drawable/round_back_orange"
-        android:fontFamily="@font/boba_milky"
-        android:text="@string/mulai_kembali"
-        android:textColor="@color/white" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/startNewQuizButton"
+        android:id="@+id/startQuizButton"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
@@ -99,7 +77,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/round_back_green"
-        android:text="Mulai kembali"
+        android:text="Mulai Quiz"
         android:fontFamily="@font/boba_milky"
         android:textColor="@color/white" />
 </RelativeLayout>

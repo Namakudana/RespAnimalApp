@@ -1,12 +1,11 @@
 package com.mardana.respanimalapp
 
-import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import com.mardana.respanimalapp.databinding.ActivityMainBinding
-import kotlin.system.exitProcess
+import com.mardana.respanimalapp.user_preference.UserPreference
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -20,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnInfo.setOnClickListener {
-            startActivity(Intent(this, Info::class.java))
+            startActivity(Intent(this, InfoActivity::class.java))
         }
 
         binding.btnKD.setOnClickListener {
@@ -32,26 +31,27 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnQuiz.setOnClickListener {
-            startActivity(Intent(this, PracticePage::class.java))
+            startActivity(Intent(this, PracticePageActivity::class.java))
         }
 
         binding.btnNilai.setOnClickListener {
-            startActivity(Intent(this, ViewScoreList::class.java))
+            startActivity(Intent(this, QuizResults::class.java))
         }
 
     }
 
     private fun showExitConfirmationDialog(){
+        val userPracticePage = UserPreference(this)
         val alertDialog = AlertDialog.Builder(this)
             .setTitle("Keluar")
             .setMessage("Anda yakin ingin keluar?")
             .setPositiveButton("Ya") { _, _ ->
-                exitProcess(0)
+                startActivity(Intent(this, LoginActivity::class.java))
+                finish()
+                userPracticePage.logoutUser()
             }
             .setNegativeButton("No", null)
             .create()
         alertDialog.show()
     }
-
-
 }
