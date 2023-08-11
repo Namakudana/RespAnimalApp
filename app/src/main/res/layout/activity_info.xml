@@ -46,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="55dp"
-        android:fontFamily="@font/boba_milky"
+        android:fontFamily="@font/Cherry_Bird_Demo"
         android:text="@string/aplikasi_respanimal_adalah_aplikasi_pembelajaran_tentang_sistem_pernapasan_pada_hewan_vertebrata_di_aplikasi_respanimal_ini_terdapat_penjelasan_tentang_5_alat_pernapasan_pada_hewan_kulit_insang_paru_paru_trakea_kulit_dan_paru_paru"
         android:textSize="20sp"
         android:textColor="@color/black"

@@ -26,7 +26,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/boba_milky"
+        android:fontFamily="@font/Cherry_Bird_Demo"
         android:letterSpacing="0.1"
         android:text="RespAnimal"
         android:textColor="@color/black"
@@ -58,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Masuk"
+            android:fontFamily="@font/Cherry_Bird_Demo"
             android:textColor="@color/black"
             android:textSize="16sp" />
 
@@ -73,6 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints="no"
+                android:fontFamily="@font/Cherry_Bird_Demo"
                 android:hint="Masukkan Nama"
                 android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -90,6 +92,7 @@
                 android:layout_height="wrap_content"
                 android:autofillHints="no"
                 android:hint="Masukkan Kelas"
+                android:fontFamily="@font/Cherry_Bird_Demo"
                 android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -99,13 +102,16 @@
         </LinearLayout>
     </LinearLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="12dp"
         android:layout_margin="14dp"
+        android:fontFamily="@font/Cherry_Bird_Demo"
         android:text="Masuk"
+        android:textColor="@color/white"
+        android:background="@drawable/round_back_green"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

@@ -41,8 +41,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="20dp"
         android:textAlignment="center"
-        android:text="Ketuk tombol dibawah untuk memulai quiz"
-        android:fontFamily="@font/boba_milky"
+        android:text="Ketuk tombol dibawah untuk memulai latihan"
+        android:fontFamily="@font/Cherry_Bird_Demo"
         android:textColor="#99FFFFFF" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -51,7 +51,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/round_back_green"
-        android:fontFamily="@font/boba_milky"
-        android:text="Mulai Quiz"
+        android:fontFamily="@font/Cherry_Bird_Demo"
+        android:text="Mulai"
         android:textColor="@color/white" />
 </LinearLayout>

@@ -8,4 +8,5 @@
     <color name="subtext">#DDDBDB</color>
 
     <color name="selected">#72AC47</color>
+    <color name="row_materi">#72AC46</color>
 </resources>
