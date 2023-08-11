@@ -1,5 +1,6 @@
 package com.mardana.respanimalapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
@@ -8,7 +9,6 @@ import com.mardana.respanimalapp.databinding.ActivityDetailMaterialBinding
 
 class DetailMaterialActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetailMaterialBinding
-
     object IntentId {
         const val materialExtra = "MATERIAL_EXTRA"
     }
@@ -16,6 +16,10 @@ class DetailMaterialActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailMaterialBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.btnBack.setOnClickListener {
+            onBackPressed()
+        }
 
 
         val intent = intent

@@ -22,6 +22,11 @@ class QuestionPageActivity : AppCompatActivity() {
         binding = ActivityQuestionPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.backBtn.setOnClickListener {
+            onBackPressed()
+        }
+
+
         val userPreference = UserPreference(this)
 
         questionPageViewModel = ViewModelProvider(

@@ -13,7 +13,7 @@ class InfoActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnBack.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            onBackPressed()
         }
     }
 
